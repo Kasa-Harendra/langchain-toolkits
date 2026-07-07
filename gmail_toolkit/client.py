@@ -49,6 +49,7 @@ class GMailClient:
         return GMailClient(
             client_id=client_id,
             client_secret=client_secret,
-            access_token=creds.token
+            access_token=creds.token,
+            refresh_token=refresh_token
         )
 
